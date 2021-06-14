@@ -1,0 +1,127 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  display: none;
+  position: relative;
+  width: 36px;
+  height: 24px;
+  top: 0;
+}
+
+.sidebar-brand {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+.bm-menu-wrap {
+  top: 0 !important;
+  left: 0px !important;
+  position: fixed;
+  height: 100vh;
+  background-color: #ffffff;
+  width: 100% !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ffffff;
+  padding: 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  left: 0px !important;
+  top: 0px !important;
+}
+
+.side-navbar-body {
+  padding: 10px 0px 20px 0px;
+  background-color: white;
+  overflow: hidden !important;
+}
+.sidenav-items:first-child {
+  border-top: 1px solid #dfdfdf;
+}
+.sidenav-items {
+  display: block;
+  color: #333;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 1em;
+  text-decoration: none;
+  font: normal 18px "segoeui";
+}
+
+.sidenav-items.special-btn {
+  background: #fb8f1d;
+  color: #ffffff !important;
+  font-weight: bold;
+  transition: all 1s ease-in-out;
+  height: 36px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: 14px;
+}
+
+.sidenav-items.special-btn:hover {
+  background: #ff8400;
+  color: #f3f3f3 !important;
+}
+
+.sidenav-items#sign-up{
+  color: #fb8f1d;
+  background: #ffffff;
+  font-weight: 900;
+}
+
+.sidenav-items.login:hover {
+  color: #fb8f1d;
+  background: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .bm-burger-button {
+    display: block;
+  }
+}

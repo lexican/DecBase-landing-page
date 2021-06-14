@@ -1,0 +1,26 @@
+#horizontal-slider {
+  .left-arrow {
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    background: #37806b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+  }
+  .right-arrow {
+    background: #37806b;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    margin-left: 17px;
+  }
+  .hide {
+    background: #d3d3d3 !important;
+  }
+}
